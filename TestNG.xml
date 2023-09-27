@@ -1,0 +1,174 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RE_Endpoints">
+
+	 <listeners>
+		<listener class-name="resources.Extentreport" />
+	</listeners>
+	
+  	  <test name="Eligibility">
+		<classes>
+			<class name="loanfront.rule_engine_stage1.Eligibility" />
+		</classes>
+	</test>
+	
+	<!--  <test name="Equifax">
+		<classes>
+			<class name="loanfront.rule_engine_stage1.Equifax" />
+		</classes>
+	</test>
+	 
+	<test name="Approval_1">
+		<classes>
+			<class name="loanfront.rule_engine.stage2.approval_2_1" />
+		</classes>
+	</test>
+	
+	<test name="Approval_2">
+		<classes>
+			<class name="loanfront.rule_engine.stage2.approval_2_2" />
+		</classes>
+	</test>
+	
+	<test name="Cibil">
+		<classes>
+			<class name="loanfront.rule_engine.stage2.cibil_v2" />
+		</classes>
+	</test>
+	
+	 <test name="Reference_verification">
+		<classes>
+			<class name="loanfront.rule_engine.stage2.Reference_verification" />
+		</classes>
+	</test> 
+	
+	<test name="Stage3_amt">
+		<classes>
+			<class name="loanfront.rule_engine.stage3.amount_api" />
+		</classes>
+	</test> 
+	
+	
+	
+	<test name="Repayment">
+		<classes>
+			<class name="loanfront.rule_engine.stage4.Repayment" />
+		</classes>
+	</test> 
+	
+   
+
+	<test name="Re_evaluate">
+		<classes>
+			<class name="loanfront.rule_engine.stage4.Re_evaluate" />
+		</classes>
+	</test> 
+
+	 <test name="booster_mobile_auth">
+		<classes>
+			<class name="loanfront.rule_engine.stage3.booster_mobile_auth" />
+		</classes>
+	</test> 	
+	
+	 <test name="booster_perfios">
+		<classes>
+			<class name="loanfront.rule_engine.stage3.booster_perfios" />
+		</classes>
+	</test> 
+	
+	
+	 <test name="booster_COMPANY_DETAILS">
+		<classes>
+			<class name="loanfront.rule_engine.stage3.booster_company_details" />
+		</classes>
+	</test> 
+	
+	 <test name="booster_DT_netbanking">
+		<classes>
+			<class name="loanfront.rule_engine.stage3.booster_DT_netbanking" />
+		</classes>
+	</test> 
+	
+	 <test name="booster_bank_statement">
+		<classes>
+			<class name="loanfront.rule_engine.stage3.booster_bank_statement" />
+		</classes>
+	</test> 
+	
+	 <test name="booster_pay_slip">
+		<classes>
+			<class name="loanfront.rule_engine.stage3.booster_pay_slip" />
+		</classes>
+	</test> 
+	
+	<test name="bank-verification">
+		<classes>
+			<class name="loanfront.rule_engine.stage4.Bank_verification" />
+		</classes>
+	</test> 
+	
+	 <test name="esign">
+		<classes>
+			<class name="loanfront.rule_engine.stage4.esign" />
+		</classes>
+	</test>
+	
+		
+		<test name="Esign_slct">
+		<classes>
+			<class name="loanfront.rule_engine.stage4.Esign_slct" />
+		</classes>
+	</test>
+	
+	 <test name="Mnr_upgrd">
+		<classes>
+			<class name="loanfront.rule_engine.stage4.Mnr_upgrd" />
+		</classes>
+	</test> 
+	
+	<test name="Kyc_required">
+		<classes>
+			<class name="loanfront.rule_engine.stage4.Kyc_required" />
+		</classes>
+	</test> 
+	
+	<test name="Okyc_Vkyc">
+		<classes>
+			<class name="loanfront.rule_engine.stage4.Okyc_Vkyc" />
+		</classes>
+	</test> 
+	
+	<test name="Decision_Making">
+		<classes>
+			<class name="loanfront.rule_engine.stage4.Decision_Making" />
+		</classes>
+	</test> 
+	
+	 <test name="Enach_Required">
+		<classes>
+			<class name="loanfront.rule_engine.stage4.Enach_Required" />
+		</classes>
+	</test> 
+	
+	
+	<test name="Enach_Verification">
+		<classes>
+			<class name="loanfront.rule_engine.stage4.Enach_Verification" />
+		</classes>
+	</test> 
+					
+	
+	 <test name="Booster_EPFO">
+		<classes>
+			<class name="loanfront.rule_engine.stage3.Booster_EPFO" />
+		</classes>
+	</test>
+	
+	 <test name="Loan_closure">
+		<classes>
+			<class name="loanfront.rule_engine.stage4.Loan_closure" />
+		</classes>
+	</test> -->
+	
+	
+</suite>  
